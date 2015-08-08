@@ -7,10 +7,12 @@ jquery.mousewheel.min.js
 jquery.jscrollpane.min.js
 jquery.jscrollpane.css
 ### 使用
+```
 引用css
-`<link rel="stylesheet" type="text/css" href="box.css"/>`
+<link rel="stylesheet" type="text/css" href="box.css"/>
 引用js
-`<script type="text/javascript" src="jquery.box.js"></script>`
+<script type="text/javascript" src="jquery.box.js"></script>
+```
 ### 基本方法
 ```
 <div style="display:none" id="box">

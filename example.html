@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!--<Link href="jquery.jscrollpane.css" type="text/css" rel="stylesheet">-->
+    <link href="//cdn.bootcss.com/jScrollPane/2.0.22/style/jquery.jscrollpane.css" rel="stylesheet">
+    <link href="box.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+<div style="display:none" id="agreement">
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+    <p>股市这么好，我想去看看！无论你是初出茅庐的新人，还是纵横股海的大牛，在未来的3个月中，你是否有信心跑赢一众高手，傲立于华山之巅？现在报名东吴证券“秀财杯”投顾高手炒股大赛，8万元大奖等你赢取！</p>
+
+</div>
+
+<button id="showBox">查看文本</button>
+
+</body>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>
+<script src="//cdn.bootcss.com/jScrollPane/2.0.22/script/jquery.jscrollpane.min.js"></script>
+<!--<script type="text/javascript" src="jquery-1.11.2.min.js"></script>-->
+<!--<script type="text/javascript" src="jquery.mousewheel.min.js"></script>-->
+<!--<script type="text/javascript" src="jquery.jscrollpane.min.js"></script>-->
+<script type="text/javascript" src="jquery.box.js"></script>
+
+<script>
+
+    $(function() {
+        $("#showBox").click(function() {
+            $("#agreement").box({title: "标题"});
+        });
+    });
+</script>
+</html>
